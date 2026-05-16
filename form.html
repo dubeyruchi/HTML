@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<style>
+    /* 1. Page ka background aur font */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    /* 2. Form ka main box */
+    form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* 3. Fieldset aur Legend (Border styling) */
+    fieldset {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 15px;
+    }
+
+    legend {
+        font-weight: bold;
+        color: #333;
+        padding: 0 10px;
+    }
+
+    /* 4. Labels ko set karna */
+    label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    /* 5. Input boxes ki styling */
+    input[type="text"], 
+    input[type="password"], 
+    input[type="date"], 
+    input[type="Month"], 
+    input[type="Week"], 
+    input[type="number"], 
+    select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box; /* Width fix karne ke liye */
+    }
+
+    /* 6. Buttons ki styling */
+    input[type="Submit"] {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    input[type="reset"] {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    input[type="Submit"]:hover {
+        background-color: #218838;
+    }
+
+    input[type="reset"]:hover {
+        background-color: #c82333;
+    }
+
+    /* 7. Radio aur Checkbox ke beech space */
+    input[type="radio"], input[type="checkbox"] {
+        margin-right: 5px;
+    }
+</style>
+<body>
+    <form>
+        <fieldset>
+        <lable for="username">Name</lable>
+        <input type="trxt" name="username" id="username" placeholder="Enter your name" required="true"/>
+        <br><br>
+
+        <lable for="password">Password</lable>
+        <input type="password" name="password" id="username" placeholder="Enter your password" required="true"/>
+        <br><br>
+
+        <lable for="Date of Birth">Date of Birth</lable>
+        <input type="date" name="Date of Birth" id="Date of Birth" required="true"/>
+        <br><br>
+
+        <lable for="Date & Time">Date & Time</lable>
+        <input type="Month" name="Month" id="Month" required="true"/>
+        <br><br>
+
+        <lable for="Week">Week</lable>
+        <input type="Week" name="Week" id="Week" required="true"/>
+        <br><br>
+
+        <lable for="number">Number</lable>
+        <input type="" name="number" id="number" required="true"/>
+        <br><br>
+
+        <p>Gender</p>
+        <lable><input type="radio" name="Gender" value="male" required="true">male</lable>
+        <lable><input type="radio" name="Gender" value="female" required="true">female</lable>
+        <br>
+
+        <p>Course</p>
+        <label><input type="checkbox" name="checkbox" value="MCA" required="true" >MCA</label>
+        <label><input type="checkbox" name="checkbox" value="BCA" required="true"> BCA</label>
+        <br>
+
+        <p>Highest Qualification</p>
+        <select name="Qualification" id="Qualification">
+        <option value="option">Select</option>
+        <option value="10">10th</option>
+        <option value="12">12th</option>
+        <option value="graducation">Graducation</option>
+        </select>
+        <br>
+        <br>
+        <lable for="resume" >UploadResume</lable>
+        <input type="file" id="resume" accept=".mp4" multiple="true" />
+        <br>
+
+            <input type="Submit" value="Submit" />
+            <input type="reset" value="reset" />
+
+        </fieldset>
+    </form>
+</body>
+</html>
