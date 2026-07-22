@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <center>
+        <form>
+            <table border="2px" cellpadding="5">
+             <tr>
+                 <label for="name"><td>Name</td></label>
+                 <td><input type="text" name="Name" id="name" placeholder="Enter your name" required="true"></td>
+             </tr>
+             <tr>
+                <label for="address"><td>Address</td></label>
+                <td><input type="text" address="Address" id="address" placeholder="Enter your address" required="true"></td>
+             </tr>
+            
+             <tr>  
+                <label for="password"><td>Password</td></label>
+                <td><input type="password" name="password" id="password" placeholder="Enter your password" required="true"></td>
+             </tr>
+        
+             <tr>
+               <label for="dob"><td>Date of Birth</td></label>
+               <td><input type="date" name="dob" id="dob" required="true"></td>
+             </tr>
+             <tr>
+                <label for="month"><td>Month</td></label>
+                <td><input type="month" name="month" id="month" required="true"></td>
+             </tr>
+             <tr>
+                <label for="week"><td>Week</td></label>
+                <td><input type="week" name="week" id="week" required="true"></td>
+             </tr>
+             <tr>
+                 <label for="number"><td>Number</td></label>
+                <td><input type="number" name="number" id="number" required="true"></td>
+             </tr>
+             <tr>
+                 <td>Gender</td>
+                 <div class="row-group">
+                 <td><label ><input type="radio" name="Gender" value="male" required="true">Male<input type="radio" name="Gender" value="female">Female</label></td>
+                 </div>
+             </tr>
+             <tr>
+                <td>Course</td>
+                  <div class="row-group">
+                  <td><label><input type="checkbox" name="course" value="MCA">MCA<input type="checkbox" name="course" value="BCA">BCA</label>
+             </td>
+                 </div>
+             </tr>
+             <tr>
+                 <td><label for="Qualification">Highest Qualification</label></td>
+                 <td><select name="Qualification" id="Qualification">
+                 <option value="">Select</option>      
+                 <option value="10">10th</option>
+                 <option value="12">12th</option>
+                 <option value="graduation">Graduation</option></td>
+                 </select>
+             </tr>
+             <tr>
+                 <label for="resume"><td>Resume Upload</td></label>
+                <td><input type="file" id="resume" accept=".pdf,.doc,.docx" multiple></td>
+             </tr>
+             <tr>
+            <td colspan="2"style="text-align: center">
+                 <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+            </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
