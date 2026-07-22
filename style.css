@@ -1,0 +1,168 @@
+body{
+    padding: 20px;
+    background-color: rgb(96, 179, 179);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+header{
+    background-color: azure;
+    padding-top: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: monospace;
+    color: red;
+    font-size: 40px;
+    margin: 0;
+}
+
+#para1{
+    font-variant: small-caps;
+    color: gray;
+    /* font-style: italic; */
+    letter-spacing: 2px;
+}
+
+.section{
+    background-color: azure;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+h2{
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+    color: rgb(78, 78, 206);
+    font-width: bold;
+}
+
+.div1{
+    background-color: azure;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#para2{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 15px;
+    
+}
+
+#para3{
+    color: blue;
+    margin-left: 40px;
+}
+.img1{
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height: 110px
+}
+
+a{
+    color:red;
+}
+
+caption{
+    color: black;
+    font-style: italic;
+    font-family: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table-head{
+    background-color: lightskyblue;
+    color: black;
+    text-align: left;
+}
+
+th{
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+td{
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: lightgrey;
+}
+
+.last-column{
+    padding-right: 680px;
+}
+
+legend{
+    font-weight: bold;
+}
+
+.label-box{
+    display: block;
+    color: black;
+    font-width:bold;
+    margin-bottom: 10px;
+    background-color: azure;
+    color: azure;
+}
+
+.input-box{
+    width: 98%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+select{
+    width: 98%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+#btn1{
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background-color: purple;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+#btn2{
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+#para4{
+    color: rgb(114, 6, 6);
+}

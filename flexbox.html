@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+
+    <style>
+        .box{
+            border: 5px solid black;
+            height: 1000px;
+            flex-wrap: wrap-reverse;
+        }
+        #box-1{
+            border: 2px solid red;
+            width: 220px;
+            height: 220px;
+            display: inline-block;
+            flex-direction: column;
+        }
+
+        #box-2{
+            border: 2px solid red;
+            width: 220px;
+            height: 220px;
+            display: inline-block;
+            /* position: fixed; */
+            position: sticky;
+        }
+
+        #box-3{
+            border: 2px solid red;
+            width: 220px;
+            height: 220px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div  clid="box-1">1</div>
+    <div id="box-2">2</div>
+    <div id="box-3">3</div>
+    <div id="box-4">4</div>
+    <div id="box-5">5</div>
+    </div>
+</body>
+</html>
